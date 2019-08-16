@@ -1,0 +1,2 @@
+# Copying missing blobs from one host to another
+rsync -avR --files-from=missing_ds_files.txt . user@hostname-of-server-missing-files:/path/to/crx-quickstart/repository/repository/datastore/
